@@ -1,7 +1,6 @@
 # Cuemath Tutor Hiring Assignment
 
-The work is separated by assignment part. This is the only README; run instructions for every task are here. The four-page summary is at the top level; code, tests, and outputs are grouped below. Supplied applicant data and inbox are intentionally not copied into this package. Use the original CSVs locally when running the scripts.
-
+The work is separated by assignment part. This is the only README; run instructions for every task are here. The four-page summary is at the top level; code, tests, and outputs are grouped below. 
 ## Folder map
 
 - `Task_A/` - reproducible data analysis and its run instructions.
