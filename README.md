@@ -18,7 +18,7 @@ Run with Python 3 and no third-party packages:
 python Task_A/analysis.py path/to/candidates.csv
 ```
 
-The script prints monthly funnel counts, immediate AI pass rates by version and device, and observed source conversion. The chart and written interpretation are in `assignment_summary.pdf`. September induction conversion is right-censored at the 5 October data cutoff; compare fixed-age signup cohorts before treating the monthly snapshot as final.
+The script prints monthly funnel counts, immediate AI pass rates by version and device, and observed source conversion. The chart and written interpretation are in `Summary of the work.pdf`. September induction conversion is right-censored at the 5 October data cutoff; compare fixed-age signup cohorts before treating the monthly snapshot as final.
 
 ## Task B - Weekly report repair
 
@@ -50,9 +50,3 @@ The full candidate file is not sent to the model. Only the requested sender's st
 
 See `Task_D/operations_plan.md` for the weekly signup and interview estimates, capacity options, selected approach, and Monday checklist.
 
-## Interview demo
-
-1. Run the tests in `Task_B`, then run the report on the supplied candidate CSV. Point out the `facebook` alias, safe handling of unknown labels, and the explicit rate denominators.
-2. Add an `instagram` alias to `Meta` in `Task_B/weekly_report.py`, rerun the report, and rerun the tests.
-3. In `Task_C/agent.py`, show the sender-ID guard on `lookup_for_email`: a message asking for a friend's ID cannot retrieve that record.
-4. If the API is reachable and quota is available, run the agent with `--limit 1`, inspect its checkpoint, then run again with `--limit 15` to show resume behavior. `Task_C/replies.csv` is a human-checked expected-output baseline, not model-generated output. The attempted live API run here completed 0/15 because DNS/network access failed before an API response; no rate limit could be measured.
