@@ -8,7 +8,7 @@ The work is separated by assignment part. This is the only README; run instructi
 - `Task_B/` - repaired weekly report and tests.
 - `Task_C/` - OpenAI API agent, expected replies, live-run checkpoint, and tests.
 - `Task_D/` - November staffing calculation and Monday checklist.
-- `assignment_summary.pdf` - concise four-part submission document.
+- `Summary of the work.pdf` - concise four-part submission document.
 
 ## Task A - Data analysis
 
